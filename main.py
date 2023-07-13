@@ -1,6 +1,5 @@
 from flask import Flask
 from dotenv import load_dotenv
-from handlers.http_handler import app
 
 load_dotenv()
 app = Flask(__name__)
